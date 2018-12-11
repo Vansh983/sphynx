@@ -1,0 +1,14 @@
+name: Sphynx Theme
+description: 'Sphynx is a simple Drupal theme'
+type: theme
+version: VERSION
+core: 8.x
+package: Custom
+libraries:
+  - sphynx/styling
+regions:
+  header: Header
+  menu: Main Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

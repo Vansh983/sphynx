@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans';
+  overflow-x:hidden;
+}
+a, a:active, a:hover, a:visited{
+  text-decoration: none;
+  /* color: #000; */
+}
+ul, ol{
+  list-style-type: none;
+}
+header{
+  background-color: #13171c;
+}
+.content{
+  position: relative;
+  width: 70%;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.footer{
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background-color: #13171c;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+}
+#block-sphynx-branding a{
+  font-size: 20px;
+  color: #fff;
+}
+.heading{
+  color: #fff;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#block-sphynx-main-menu ul{
+  /* position: absolute; */
+  z-index: 5;
+  width: 80%;
+  display: inline-block;
+
+}
+
+#block-sphynx-main-menu ul li{
+  padding: 10px;
+  width:15%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #fff;
+  transition: 500ms;
+}
+
+#block-sphynx-main-menu ul li:hover{
+  color: #fff;
+  background-color: #13171c;
+
+}
