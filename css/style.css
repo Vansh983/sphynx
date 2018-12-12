@@ -60,13 +60,13 @@ header{
   font-size: 20px;
   text-decoration: none;
   color: #000;
-  background-color: #fff;
-  border: 2px solid #fff;
+  background-color: #E6DADA;
+  border: 2px solid #E6DADA;
   transition: 500ms;
 }
 
 #block-sphynx-main-menu ul li:hover{
-  color: #fff;
+  color: #E6DADA;
   background-color: #13171c;
 
 }
